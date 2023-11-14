@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  gustavo-pettine-cv:
+    container_name: gustavo-pettine-cv
+    image: alpine
+    working_dir: "/gustavo-pettine-cv"
+    command: sh -c "apk add tectonic && sh compile.sh"
+    volumes:
+      - ./:/gustavo-pettine-cv
