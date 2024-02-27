@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  gustavo-pettine-cv:
+    container_name: gustavo-pettine-cv
+    build: .
+    image: tectonic
+    working_dir: "/gustavo-pettine-cv"
+    user: 1000:1000
+    command: sh -c "
+      tectonic -X compile gustavo-pettine-cv.en.tex &&
+      tectonic -X compile gustavo-pettine-cv.pt-br.tex"
+    volumes:
+      - ./:/gustavo-pettine-cv
+    environment:
+      - XDG_CONFIG_HOME=/gustavo-pettine-cv/.tectonic
+      - XDG_CACHE_HOME=/gustavo-pettine-cv/.tectonic
