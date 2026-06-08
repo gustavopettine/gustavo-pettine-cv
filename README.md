@@ -42,6 +42,6 @@ MIT
 
 ---
 
-> [Website](https://gustavopettine.pages.dev) &nbsp;&middot;&nbsp;
-> GitHub [@gupettine](https://github.com/gupettine) &nbsp;&middot;&nbsp;
+<!-- > [Website](https://gustavopettine.pages.dev) &nbsp;&middot;&nbsp; -->
+> GitHub [@gupettine](https://github.com/gustavopettine) &nbsp;&middot;&nbsp;
 > LinkedIn [@gustavopettine](https://linkedin.com/in/gustavopettine)
