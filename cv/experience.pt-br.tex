@@ -11,71 +11,97 @@
 
 %---------------------------------------------------------
   \cventry
-    {Iniciação Científica em Análise de Dados} % Job title
+    {Desenvolvedor Fullstack (Part-time) --- DominiPay, Alfred P2P e site institucional (web e mobile)} % Job title
+    {DSEC Labs --- Infraestrutura de pagamentos em cripto} % Organization
+    {Remoto} % Location
+    {Jun. 2026 - Presente} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Ecossistema de pagamentos e soberania financeira baseado em Bitcoin. Atuo em regime \textbf{part-time} como desenvolvedor \textbf{fullstack} no \textbf{DominiPay}, gateway de pagamentos descentralizados com liquidação direta em cripto para lojistas; no \textbf{Alfred P2P}, plataforma de compra, venda e troca de cripto via PIX oferecida também como white-label; e no site institucional da DSEC Labs.}
+        \item {Desenvolvo APIs e regras de negócio no \textbf{backend} com \textbf{NestJS, TypeScript e Prisma sobre PostgreSQL}, incluindo a \textbf{integração com gateways de pagamento e com a blockchain} e a validação de endereços de carteira por rede.}
+        \item {Desenvolvo as aplicações \textbf{web} com \textbf{Next.js, React, TypeScript e Tailwind CSS}, incluindo \textbf{landing pages} de produto e o site institucional com foco em SEO, performance e responsividade, em uma base preparada para white-label.}
+        \item {Desenvolvo o \textbf{app mobile} com \textbf{React Native e Expo} para iOS e Android, integrado às mesmas APIs e regras de negócio da versão web.}
+        \item {Construí o \textbf{fluxo de pagamento} de on-ramp e off-ramp em etapas, com escolha do par e do valor, detecção automática entre compra, venda e troca, cotação e taxas antes da confirmação, cupons e pagamento via PIX, suportando \textbf{Bitcoin on-chain, Lightning e Liquid}, além de USDT, USDC e DePix em redes como Polygon, Tron, Solana e Liquid.}
+        \item {Implementei a recomendação de \textbf{rotas inteligentes de saque} no DominiPay, comparando o custo por ativo e rede (como USDT na Polygon ou DePix) e destacando a opção de menor custo para o lojista, com captação de cupons de redução de taxa.}
+        \item {Desenvolvi \textbf{dashboards} para acompanhamento, movimentação e gestão de pagamentos, além da \textbf{autenticação} e do controle de acesso, com limites progressivos por usuário e formas de pagamento liberadas conforme o nível da conta.}
+        \item {Atuo em fluxo ágil, acompanhando tarefas e sprints no Jira.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Desenvolvedor Frontend --- e-HCM, plataforma de gestão de capital humano (web e mobile)} % Job title
+    {RSM} % Organization
+    {Remoto} % Location
+    {Mar. 2026 - Presente} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {ERP de gestão de capital humano utilizado por empresas de médio e grande porte, abrangendo ponto eletrônico, banco de horas, processos trabalhistas, avaliação de desempenho, mentoria e relatórios. Atuo no time de desenvolvimento frontend nas versões \textbf{web e mobile} da plataforma, participando de code review e entregas ponta a ponta.}
+        \item {Desenvolvo e mantenho a aplicação web com \textbf{React, TypeScript, Vite e React Router}, com o estado de domínio estruturado por áreas de negócio e as integrações com a API centralizadas em uma camada de core que separa infraestrutura, serviços, hooks, contexts e componentes de apresentação.}
+        \item {Desenvolvo o \textbf{app mobile multiplataforma} do e-HCM com \textbf{React Native} para iOS e Android, mantendo consistência de regras de negócio, integrações com a API e experiência de uso com a versão web.}
+        \item {Entreguei funcionalidades corporativas ponta a ponta, incluindo \textbf{compensação de horas, período de experiência, advertências, plano de desenvolvimento individual e ciclos de avaliação}, abrangendo regras de negócio, formulários, integrações, fluxos de aprovação e controle de permissões.}
+        \item {Implementei \textbf{dashboards executivos e gerenciais} com bibliotecas de visualização e tabelas, consolidando indicadores de custos, engajamento, avaliação e folha, com carregamento de dados otimizado para evitar requisições desnecessárias.}
+        \item {Implementei no frontend os \textbf{fluxos de autenticação} com JWT e autenticação multifator por OTP, incluindo login em múltiplas etapas, renovação de sessão, proteção de rotas e adaptação da navegação conforme as permissões do usuário.}
+        \item {Padronizei telas de \textbf{relatórios e formulários} com React Hook Form, Yup e helpers genéricos em TypeScript, e construí uma camada de \textbf{geração e exportação de documentos} em PDF e Excel com layouts personalizados, tabelas e totalizadores.}
+        \item {Centralizei o \textbf{tratamento de erros HTTP} e comportamentos relacionados à sessão, como a sincronização de logout entre abas, e atuei em uma arquitetura \textbf{multi-tenant}, adaptando módulos, funcionalidades e políticas de acesso conforme o cliente.}
+        \item {Atuo em fluxo ágil, acompanhando tarefas e sprints no Azure Boards.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Desenvolvedor Fullstack --- Produto próprio, em produção} % Job title
+    {Drip Too Hard --- Rede social de moda (web e mobile)} % Organization
+    {\href{https://driptoohard.com.br}{driptoohard.com.br}} % Location
+    {Set. 2024 - Presente} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Rede social de moda onde usuários montam e publicam outfits com peças, marcas e preços, com remoção automática de fundo nas fotos das peças. Projeto desenvolvido em dupla, com atuação \textbf{fullstack} no backend, web, mobile e infraestrutura.}
+        \item {Estruturei o \textbf{backend} com \textbf{NestJS, TypeScript e Prisma sobre PostgreSQL}, seguindo Clean Architecture e DDD com use cases, repositórios e entidades de domínio isolados.}
+        \item {Integrei a \textbf{API do Photoroom} para remoção automática de fundo das peças, o \textbf{AWS S3} com URLs pré-assinadas para upload de imagens e o \textbf{AWS Rekognition} para moderação de conteúdo, otimizando o processamento das imagens com Sharp.}
+        \item {Desenvolvi do zero a \textbf{aplicação web} com \textbf{Next.js, React, TypeScript, Tailwind CSS e TanStack Query}, utilizando Server Components para conteúdo público e SEO e Client Components para funcionalidades interativas, incluindo metadata dinâmica por conteúdo.}
+        \item {Implementei o \textbf{feed masonry responsivo com infinite scroll e cursor pagination} utilizando TanStack Query e IntersectionObserver, com cache de dados, skeletons de carregamento e distribuição dinâmica de colunas por breakpoint, além da restauração do feed e da posição de scroll durante a navegação.}
+        \item {Desenvolvi o \textbf{app mobile} com \textbf{React Native e Expo}, React Navigation e Expo SecureStore para armazenamento seguro da sessão, com build e publicação para iOS e Android via EAS Build/Submit.}
+        \item {Implementei o \textbf{fluxo de autenticação} de ponta a ponta com Google OAuth, NextAuth e JWT, incluindo renovação de tokens, login em múltiplas etapas e controle de acesso por roles no backend, na web e no mobile.}
+        \item {Construí o fluxo de \textbf{criação e edição de outfits} com React Hook Form e Zod, incluindo validação de imagens, preview local, upload, reordenação de itens com drag and drop e tratamento de erros retornados pela API.}
+        \item {Implementei \textbf{telemetria e analytics} com PostHog e Meta Pixel, incluindo rastreamento de navegação, eventos de usuário e otimização do envio de eventos de visualização para reduzir requisições desnecessárias.}
+        \item {Provisionei a \textbf{infraestrutura AWS como código com Terraform} (VPC, ECS, ECR, ALB, RDS com RDS Proxy, CloudFront, Secrets Manager, IAM) em staging e produção, com \textbf{CI/CD no GitHub Actions} para backend, web, migrações de banco, releases mobile e Terraform plan/apply, containerizando os serviços com Docker.}
+        \item {Mantive \textbf{testes unitários, de integração e end-to-end} com Jest, Supertest, Testing Library e Playwright, além de práticas de qualidade como ESLint, Prettier, Conventional Commits e code review.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Desenvolvedor Fullstack --- Trabalho de Conclusão de Curso (CEFET/RJ)} % Job title
+    {Decsys --- Plataforma de KYC descentralizada com Blockchain} % Organization
+    {Rio de Janeiro, Brasil} % Location
+    {Fev. 2024 - Fev. 2025} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Plataforma de Know Your Customer para o ecossistema Web3. O usuário se autentica com a carteira cripto e valida a identidade com CPF e reconhecimento facial com prova de vida (liveness) na base do governo. O resultado é registrado em um \textbf{smart contract na blockchain Ethereum}. Projeto desenvolvido em grupo, com atuação \textbf{fullstack} no backend e no frontend.}
+        \item {Estruturei o \textbf{backend} com \textbf{NestJS, TypeScript e Prisma}, seguindo os princípios da Clean Architecture, com validação de schemas e variáveis de ambiente via Zod e integração com a blockchain via \textbf{Ethers.js} para registrar e consultar as validações no smart contract.}
+        \item {Integrei a \textbf{API Serpro Datavalid} para reconhecimento facial e verificação de documentos, garantindo precisão na validação KYC.}
+        \item {Desenvolvi a aplicação web com \textbf{Next.js (App Router), React, TypeScript e Tailwind CSS}. Ela tem landing page, dashboard, validação de identidade e consulta de usuários por endereço de carteira, com layout responsivo, tema escuro e sidebar colapsável com Radix UI.}
+        \item {Implementei a \textbf{autenticação Web3 sem senha} com MetaMask, Ethers.js e JWT. O fluxo conecta a carteira, assina uma mensagem com nonce fornecido pela API e cadastra automaticamente as carteiras novas. A sessão fica em cookies com Context API, e um middleware do Next.js protege as rotas privadas.}
+        \item {Construí o \textbf{fluxo de validação KYC} com captura facial pela câmera, usando MediaDevices API e Canvas. O fluxo checa permissões e adapta as configurações da câmera ao dispositivo (desktop, Android e iOS), com máscara de CPF, preview da foto e mensagens de erro claras para cada falha da validação biométrica.}
+        \item {Desenvolvi a \textbf{tela de resultado da validação}, com o percentual de similaridade facial em um gráfico SVG, o status do usuário e o hash do registro na blockchain, bloqueando nova validação para quem já foi validado.}
+        \item {Estruturei a \textbf{camada de comunicação com a API} com Axios e services organizados por domínio, com interceptor para injeção do JWT e tratamento de erros HTTP em mensagens amigáveis ao usuário.}
+        \item {Gerenciei os ambientes de desenvolvimento e produção com \textbf{Docker} e realizei o deploy do frontend no Cloudflare Pages e do backend no Render.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Iniciação Científica --- Desenvolvedor Fullstack} % Job title
     {CEFET/RJ} % Organization
     {Rio de Janeiro, Brasil} % Location
     {Ago. 2020 - Ago. 2021} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Desenvolvi um modelo de inteligência artificial para classificação de emoções humanas em textos.}
-        \item {Auxiliei o pesquisador da área com suas tarefas.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Desenvolvedor Fullstack} % Job title
-    {CEFET/RJ} % Organization
-    {Rio de Janeiro, Brasil} % Location
-    {Fev. 2024 - Fev. 2025} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Desenvolvi um software web para validação KYC, garantindo a segurança e conformidade dos usuários ao registrar seus dados em um smart contract na blockchain Ethereum.}
-        \item {Estruturei um backend escalável e modular com TypeScript, NestJS e Prisma, seguindo os princípios da Clean Architecture para melhor manutenção.}
-        \item {Implementei autenticação segura com JWT para controle de acesso no frontend e backend.}
-        \item {Desenvolvi a conexão entre o backend e a blockchain utilizando Ethers.js, possibilitando interações seguras e eficientes com o smart contract.}
-        \item {Gerenciei os ambientes de desenvolvimento e produção com Docker, assegurando facilidade no deploy e padronização do sistema.}
-        \item {Apliquei Zod para validação de schemas e configuração de variáveis de ambiente, prevenindo erros e garantindo consistência nos dados.}
-        \item {Utilizei a API Serpro Datavalid para reconhecimento facial e verificação de documentos, reforçando a precisão na validação KYC.}
-        \item {Criei uma interface responsiva e intuitiva utilizando Next.js, Tailwind CSS, Radix UI e Lucid React, aplicando hooks e useContext para gestão de estado.}
-        \item {Implementei a comunicação entre o frontend e o backend utilizando Axios, garantindo requisições eficientes e seguras.}
-        \item {Realizei o deploy do frontend utilizando Cloudflare Pages e do backend com Render, garantindo uma infraestrutura escalável, confiável e acessível globalmente.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Desenvolvedor Fullstack} % Job title
-    {Drip Too Hard} % Organization
-    {Remoto} % Location
-    {Set. 2024 - Mai. 2026} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Desenvolvi uma rede social de moda para web e mobile onde usuários criam, compartilham e favoritam outfits, com remoção automática de fundo nas fotos das peças.}
-        \item {Estruturei um backend modular e escalável com NestJS, TypeScript e Prisma sobre PostgreSQL, seguindo Clean Architecture e DDD com use cases, repositórios e entidades de domínio isolados.}
-        \item {Desenvolvi um microsserviço de remoção de fundo em Python (rembg) para entregar imagens das peças limpas e isoladas.}
-        \item {Integrei o AWS S3 com URLs pré-assinadas para armazenamento de imagens e o AWS Rekognition para moderação, otimizando o processamento com Sharp.}
-        \item {Implementei autenticação e autorização com AWS Cognito (OAuth) e JWT, aplicando controle de acesso por roles no backend e nos clientes.}
-        \item {Construí o cliente web com Next.js (App Router), React, TypeScript, Tailwind CSS e NextAuth, com validação de formulários via React Hook Form e Zod.}
-        \item {Desenvolvi o app mobile com React Native e Expo (EAS Build/Submit), React Navigation e Expo SecureStore para gestão segura de sessão.}
-        \item {Provisionei toda a infraestrutura AWS como código com Terraform (VPC, ECS, ECR, ALB, RDS com RDS Proxy, CloudFront, Secrets Manager, IAM) nos ambientes de staging e produção.}
-        \item {Automatizei o CI/CD com GitHub Actions para backend, frontend, migrações de banco, releases mobile e Terraform plan/apply, containerizando os serviços com Docker.}
-        \item {Garanti qualidade com testes unitários, de integração e end-to-end utilizando Jest, Supertest e Playwright.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Desenvolvedor Frontend} % Job title
-    {RSM} % Organization
-    {Remoto} % Location
-    {Mar. 2026 - Atual} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Desenvolvendo aplicações web com React, criando interfaces responsivas e baseadas em componentes.}
-        \item {Desenvolvendo aplicações mobile multiplataforma com React Native para iOS e Android.}
-        \item {Atuando em fluxo ágil, acompanhando tarefas e sprints no Azure Boards.}
-        \item {Colaborando com o time na entrega e manutenção de componentes e funcionalidades de UI reutilizáveis.}
+        \item {Desenvolvi um modelo de inteligência artificial para classificação de emoções humanas, treinado sobre um dataset de aproximadamente 10 mil publicações de diversos usuários do Twitter (atual X), aplicando aprendizado de máquina com Pandas e Scikit-Learn, além do IBM Watson para leitura e compreensão dos textos.}
+        \item {Realizei o carregamento, o pré-processamento e a análise dos dados a partir de arquivos CSV, preparando os textos para o treinamento do modelo de classificação.}
+        \item {Desenvolvi o frontend em React e o backend em NestJS com Prisma e PostgreSQL para armazenar, servir e visualizar de forma interativa os dados e os resultados da análise.}
+        \item {Contribuí para a publicação de um artigo científico com os resultados da pesquisa.}
       \end{cvitems}
     }
 
